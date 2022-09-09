@@ -6,8 +6,10 @@ namespace Uppgift_2_10
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hur långt hoppade Elin och Alma i meter?");
+            Console.WriteLine("Hur långt hoppade Elin i meter?");
             string x = Console.ReadLine();
+            Console.WriteLine("Hur långt hoppade Alma i meter?");
+            string e = Console.ReadLine();
             Console.WriteLine("Elin hoppade 2,5 meter längre än Alma");
         }
     }
